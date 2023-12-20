@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroToHero.Client", "ZeroToHero.Client.csproj", "{505ADFF2-A554-428F-B87D-BB8505102284}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZeroToHero.Client", "ZeroToHero.Client.csproj", "{505ADFF2-A554-428F-B87D-BB8505102284}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroToHero.Models", "..\ZeroToHero.Models\ZeroToHero.Models.csproj", "{DA63541F-A9BC-403D-A1E8-993627657E79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{505ADFF2-A554-428F-B87D-BB8505102284}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{505ADFF2-A554-428F-B87D-BB8505102284}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{505ADFF2-A554-428F-B87D-BB8505102284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA63541F-A9BC-403D-A1E8-993627657E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA63541F-A9BC-403D-A1E8-993627657E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA63541F-A9BC-403D-A1E8-993627657E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA63541F-A9BC-403D-A1E8-993627657E79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
